@@ -1,0 +1,25 @@
+<?php
+
+namespace backend\assets;
+
+use yii\web\AssetBundle;
+
+/**
+ * Main backend application asset bundle.
+ */
+class MyAppAsset extends AssetBundle
+{
+    public $basePath = '@webroot';
+    public $baseUrl = '@web';
+    public $css = [
+        'css/lightbox.min.css',
+        'css/site.css',
+    ];
+    public $js = [
+        'js/lightbox-plus-jquery.min.js',
+    ];
+    public $depends = [
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',
+    ];
+}

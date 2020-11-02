@@ -1,0 +1,207 @@
+[30-Sep-2020 03:47:05 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/helpers/BaseVarDumper.php on line 38. in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/helpers/BaseVarDumper.php on line 38. in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/dulichhaiphong/public_html/quan-ly/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TZ' => 'Asia/Ho_Chi_Minh',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php73',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X3P-ucfGOk-SRPjLFj8CCAAAAMk',
+    'SCRIPT_URL' => '/quan-ly/index.php',
+    'SCRIPT_URI' => 'http://dulichhaiphong.xyz/quan-ly/index.php',
+    'HTTP_HOST' => 'dulichhaiphong.xyz',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '224924',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'http://dulichhaiphong.xyz',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary0wh3dbay5mnfjwAw',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_REFERER' => 'http://dulichhaiphong.xyz/quan-ly/index.php?r=sliders%2Findex',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'vi,en;q=0.9,en-US;q=0.8',
+    'HTTP_COOKIE' => 'KCFINDER_showname=on; KCFINDER_showsize=off; KCFINDER_showtime=off; KCFINDER_order=name; KCFINDER_orderDesc=off; KCFINDER_view=thumbs; KCFINDER_displaySettings=off; _identity-frontend=2a369734cb96bc99f287969bd8c1d4b3966550c813a5e0ff7e598bf1674a64c3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22mQCBobJvrGXtPEuQxDYRTYKigh8kiyGY%22%2C2592000%5D%22%3B%7D; _identity-backend=06e332f14f91728cb529baa7acbb29c5725ffe9010c25a70384f3d76f283bd6fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B7%2C%22nebY3klmz6RQKE9OWztDKYowQgN_c9Fm%22%2C2592000%5D%22%3B%7D; advanced-frontend=c761af249730e5e47c934ba4e2ae5a12; _csrf-frontend=8fca777e394592aa740a2c09d1b2e5a699bed63bfcd7bca45d567092f8492700a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220GVpOjlGFPb61tuoJ1zj9T_Bg_4ittAg%22%3B%7D; _csrf-backend=0d672b22e99a615e44c396ae720f5dddb82499260a77c5abd9c33dbd816c51a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22pTdVAjzsIZzG8fnzpMRz0DrZHc0R4wih%22%3B%7D; advanced-backend=a8af02e853596b586c0856509f513b34',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dulichhaiphong.xyz',
+    'SERVER_ADDR' => '148.66.133.222',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '113.162.55.10',
+    'DOCUMENT_ROOT' => '/home/dulichhaiphong/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@dulichhaiphong.xyz',
+    'SCRIPT_FILENAME' => '/home/dulichhaiphong/public_html/quan-ly/index.php',
+    'REMOTE_PORT' => '62033',
+    'REDIRECT_URL' => '/quan-ly/index.php',
+    'REDIRECT_QUERY_STRING' => 'r=sliders%2Findex',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => 'r=sliders%2Findex',
+    'REQUEST_URI' => '/quan-ly/index.php?r=sliders%2Findex',
+    'SCRIPT_NAME' => '/quan-ly/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php73',
+    'ORIG_PATH_INFO' => '/quan-ly/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/dulichhaiphong/public_html/quan-ly/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php73',
+    'PHP_SELF' => '/quan-ly/index.php',
+    'REQUEST_TIME_FLOAT' => 1601437625.376802921295166015625,
+    'REQUEST_TIME' => 1601437625,
+    'argv' => [
+        'r=sliders%2Findex',
+    ],
+    'argc' => 1,
+]
+[30-Sep-2020 03:48:51 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/helpers/BaseVarDumper.php on line 38. in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/helpers/BaseVarDumper.php on line 38. in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/dulichhaiphong/public_html/quan-ly/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TZ' => 'Asia/Ho_Chi_Minh',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php73',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X3QAHF1rdznPUzesftcoZwAAAAE',
+    'SCRIPT_URL' => '/quan-ly/index.php',
+    'SCRIPT_URI' => 'http://dulichhaiphong.xyz/quan-ly/index.php',
+    'HTTP_HOST' => 'dulichhaiphong.xyz',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '140718',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'http://dulichhaiphong.xyz',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary4AilSxUORCp90Vs9',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_REFERER' => 'http://dulichhaiphong.xyz/quan-ly/index.php?r=sliders%2Findex',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'vi,en;q=0.9,en-US;q=0.8',
+    'HTTP_COOKIE' => 'KCFINDER_showname=on; KCFINDER_showsize=off; KCFINDER_showtime=off; KCFINDER_order=name; KCFINDER_orderDesc=off; KCFINDER_view=thumbs; KCFINDER_displaySettings=off; _identity-frontend=2a369734cb96bc99f287969bd8c1d4b3966550c813a5e0ff7e598bf1674a64c3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22mQCBobJvrGXtPEuQxDYRTYKigh8kiyGY%22%2C2592000%5D%22%3B%7D; _identity-backend=06e332f14f91728cb529baa7acbb29c5725ffe9010c25a70384f3d76f283bd6fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B7%2C%22nebY3klmz6RQKE9OWztDKYowQgN_c9Fm%22%2C2592000%5D%22%3B%7D; advanced-frontend=c761af249730e5e47c934ba4e2ae5a12; _csrf-frontend=8fca777e394592aa740a2c09d1b2e5a699bed63bfcd7bca45d567092f8492700a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220GVpOjlGFPb61tuoJ1zj9T_Bg_4ittAg%22%3B%7D; _csrf-backend=0d672b22e99a615e44c396ae720f5dddb82499260a77c5abd9c33dbd816c51a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22pTdVAjzsIZzG8fnzpMRz0DrZHc0R4wih%22%3B%7D; advanced-backend=a8af02e853596b586c0856509f513b34',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dulichhaiphong.xyz',
+    'SERVER_ADDR' => '148.66.133.222',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '113.162.55.10',
+    'DOCUMENT_ROOT' => '/home/dulichhaiphong/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@dulichhaiphong.xyz',
+    'SCRIPT_FILENAME' => '/home/dulichhaiphong/public_html/quan-ly/index.php',
+    'REMOTE_PORT' => '30629',
+    'REDIRECT_URL' => '/quan-ly/index.php',
+    'REDIRECT_QUERY_STRING' => 'r=sliders%2Findex',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => 'r=sliders%2Findex',
+    'REQUEST_URI' => '/quan-ly/index.php?r=sliders%2Findex',
+    'SCRIPT_NAME' => '/quan-ly/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php73',
+    'ORIG_PATH_INFO' => '/quan-ly/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/dulichhaiphong/public_html/quan-ly/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php73',
+    'PHP_SELF' => '/quan-ly/index.php',
+    'REQUEST_TIME_FLOAT' => 1601437724.7288439273834228515625,
+    'REQUEST_TIME' => 1601437724,
+    'argv' => [
+        'r=sliders%2Findex',
+    ],
+    'argc' => 1,
+]
+[30-Sep-2020 03:54:14 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/helpers/BaseVarDumper.php on line 38. in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/helpers/BaseVarDumper.php on line 38. in /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/dulichhaiphong/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/dulichhaiphong/public_html/quan-ly/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TZ' => 'Asia/Ho_Chi_Minh',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php73',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'X3QBZcfGOk-SRPjLFj8CSQAAANA',
+    'SCRIPT_URL' => '/quan-ly/index.php',
+    'SCRIPT_URI' => 'http://dulichhaiphong.xyz/quan-ly/index.php',
+    'HTTP_HOST' => 'dulichhaiphong.xyz',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '187030',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'http://dulichhaiphong.xyz',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary3w6PsHyTZdSWyYPM',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_REFERER' => 'http://dulichhaiphong.xyz/quan-ly/index.php?r=sliders%2Findex',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'vi,en;q=0.9,en-US;q=0.8',
+    'HTTP_COOKIE' => 'KCFINDER_showname=on; KCFINDER_showsize=off; KCFINDER_showtime=off; KCFINDER_order=name; KCFINDER_orderDesc=off; KCFINDER_view=thumbs; KCFINDER_displaySettings=off; _identity-frontend=2a369734cb96bc99f287969bd8c1d4b3966550c813a5e0ff7e598bf1674a64c3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22mQCBobJvrGXtPEuQxDYRTYKigh8kiyGY%22%2C2592000%5D%22%3B%7D; _identity-backend=06e332f14f91728cb529baa7acbb29c5725ffe9010c25a70384f3d76f283bd6fa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B7%2C%22nebY3klmz6RQKE9OWztDKYowQgN_c9Fm%22%2C2592000%5D%22%3B%7D; advanced-frontend=c761af249730e5e47c934ba4e2ae5a12; _csrf-frontend=8fca777e394592aa740a2c09d1b2e5a699bed63bfcd7bca45d567092f8492700a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220GVpOjlGFPb61tuoJ1zj9T_Bg_4ittAg%22%3B%7D; _csrf-backend=0d672b22e99a615e44c396ae720f5dddb82499260a77c5abd9c33dbd816c51a0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22pTdVAjzsIZzG8fnzpMRz0DrZHc0R4wih%22%3B%7D; advanced-backend=a8af02e853596b586c0856509f513b34',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dulichhaiphong.xyz',
+    'SERVER_ADDR' => '148.66.133.222',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '113.160.101.45',
+    'DOCUMENT_ROOT' => '/home/dulichhaiphong/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@dulichhaiphong.xyz',
+    'SCRIPT_FILENAME' => '/home/dulichhaiphong/public_html/quan-ly/index.php',
+    'REMOTE_PORT' => '49909',
+    'REDIRECT_URL' => '/quan-ly/index.php',
+    'REDIRECT_QUERY_STRING' => 'r=sliders%2Findex',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => 'r=sliders%2Findex',
+    'REQUEST_URI' => '/quan-ly/index.php?r=sliders%2Findex',
+    'SCRIPT_NAME' => '/quan-ly/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php73',
+    'ORIG_PATH_INFO' => '/quan-ly/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/dulichhaiphong/public_html/quan-ly/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php73',
+    'PHP_SELF' => '/quan-ly/index.php',
+    'REQUEST_TIME_FLOAT' => 1601438053.5067560672760009765625,
+    'REQUEST_TIME' => 1601438053,
+    'argv' => [
+        'r=sliders%2Findex',
+    ],
+    'argc' => 1,
+]
